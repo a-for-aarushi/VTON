@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+.Python
+
+# Node
+node_modules/
+pm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Model checkpoints and large data
+checkpoints/
+VITON-HD/checkpoints/
+VTON-TRYON/checkpoints/
+
+# Frontend build
+frontend/.next/
+frontend/out/
+VTON-TRYON/frontend/.next/
+VTON-TRYON/frontend/out/
+
+# Misc
+*.log
+*.tmp
+*.bak
+
+# OneDrive temp/locks
+~$*
+*.lnk
